@@ -1,0 +1,28 @@
+#div {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    background-image: url("/images/index.jpg");
+    background-size: cover;
+    height: 500px;
+    margin: auto;
+    width: 500px;
+    margin-top: 10%;
+    border-radius: 20px;
+}
+body{
+    background: gray;
+}
+.city{
+    margin-top: 15px;
+    height: 30px;
+    width: 200px;
+}
+label{
+    color:white
+}
+#temp {
+    font-size: 50px;
+}
+::-moz-placeholder { text-align:center; }
